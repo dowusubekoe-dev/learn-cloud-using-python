@@ -1,0 +1,35 @@
+digraph "Simple Diagram Multi Output" {
+	graph [bb="0,0,209,162",
+		fontcolor="#2D3436",
+		fontname="Sans-Serif",
+		fontsize=15,
+		label="Simple Diagram Multi Output",
+		lheight=0.24,
+		lp="104.5,12.5",
+		lwidth=2.68,
+		nodesep=0.60,
+		pad=2.0,
+		rankdir=LR,
+		ranksep=0.75,
+		splines=ortho
+	];
+	node [fixedsize=true,
+		fontcolor="#2D3436",
+		fontname="Sans-Serif",
+		fontsize=13,
+		height=1.4,
+		imagescale=true,
+		label="\N",
+		labelloc=b,
+		shape=box,
+		style=rounded,
+		width=1.4
+	];
+	edge [color="#7B8894"];
+	"1eb0fbfb814146dcbac4b9cd83052ea7"	[height=1.9028,
+		image="/Users/dorbsyfx/.pyenv/versions/3.10.5/lib/python3.10/site-packages/resources/aws/compute/ec2.png",
+		label=web,
+		pos="104.5,93.5",
+		shape=none,
+		width=1.4028];
+}
